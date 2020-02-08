@@ -1,0 +1,6 @@
+<h1>Events#show</h1>
+<p>Find me in app/views/events/show.html.erb</p>
+
+<% if policy(Booking).create? %>
+  <%= link_to "New booking", new_booking_path %>
+<% end %>
