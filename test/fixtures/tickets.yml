@@ -3,9 +3,7 @@
 one:
   reserved: false
   event: one
-  booking: one
 
 two:
   reserved: false
   event: two
-  booking: two
