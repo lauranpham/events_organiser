@@ -22,7 +22,7 @@ http://localhost:3000/api/v1/bookings/1
 rails c
 User.find_by(email:"lauranpham@gmail.com")
 ```
-3. Use postman to run API calls by inserting the curl commands provided below.
+3. Use a browser "Rest Client" (Like Postman) to run API calls by inserting the curl commands provided below.
 4. Add Authorization (basic auth)
 username: lauranpham@gmail.com
 pw: 123123
@@ -35,7 +35,6 @@ curl -i -X POST                                                              \
      http://localhost:3000/api/v1/events/2/bookings
 
 **UPDATE Booking**
-Use a browser "Rest Client" (Like Postman) to update booking
 curl -i -X PATCH                                        \
      -H 'Content-Type: application/json'              \
      -H 'X-User-Email: lauranpham@gmail.com'               \
