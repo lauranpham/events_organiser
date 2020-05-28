@@ -2,7 +2,8 @@
   "name": "events_organiser",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "4.2.2"
+    "@rails/webpacker": "4.2.2",
+    "activesupport": "^0.1.4"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.10.3"
